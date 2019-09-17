@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Scuba Diving Review</h1>
+    <form method="post" action="http://sandbox.bittsdevelopment.com/humber/httpdebug/acceptdata.php">
+        <div>
+            <label> What is your first name?:</label>
+            <input type="text" id="client_firstname" name="client_firstname" placeholder="e.g. John" /> <!--input field-->
+        </div>
+        <div>
+            <label> What is your last name?</label>
+            <input type="text" id="client_lastname" name="client_lastname" placeholder="e.g. Smith" /> <!--input field-->
+        </div>
+        <div>
+            <label> Which Scuba Site Did You Visit?:</label> <!--drop down list-->
+            <select id="scuba_sites" name="scuba_sites">
+                <option value="StVincent">St. Vincent</option>
+                <option value="StThomas">St. Thomas</option>
+                <option value="StLucia">St. Lucia</option>
+            </select>
+        </div>
+        <div>
+            <h2>Who was  your instructor?</h2>
+            <label for="instructor1">Ricardo</label> <!--radio buttons-->
+            <input type="radio" id="instuctor1" name="instructor" value="instructor1" />
+            <label for="instructor2">Samuel</label>
+            <input type="radio" id="instructor2" name="instructor" value="instructor2" />
+            <label for="instructor3"> Enrique</label>
+            <input type="radio" id="instructor3" name="instructor" value="instructor3" />
+        </div>
+
+        <div>
+            <h2> Please Check off which fish you saw:</h2> <!--checkboxes-->
+            <label for="fish1">clown fish</label>
+            <input type="checkbox" name="fish1" value="fish1" />
+            <label for="fish2">angel fish</label>
+            <input type="checkbox" name="fish2" value="fish2" />
+            <label for="fish3">swordfish</label>
+            <input type="checkbox" name="fish3" value="fish3" />
+            <label for="fish4">hammerhead shark</label>
+            <input type="checkbox" name="fish4" value="fish4" />
+            <label for="fish5">stingray</label>
+            <input type="checkbox" name="fish5" value="fish5" />
+        </div>
+
+
+        <input type="submit" name="enter" value="Enter" />
+
+
+    </form>
+</body>
+</html>
