@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HTTP_5101_FALL2019 {
+namespace Assignment1_ScubaDivingReview_N01374963 {
     
     
-    public partial class Assignment1 {
+    public partial class ScubaDivingReview1 {
         
         /// <summary>
         /// form1 control.

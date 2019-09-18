@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Assignment1_ScubaDivingReview_N01374963
 {
-    public partial class ScubaDivingReview : System.Web.UI.Page
+    public partial class ScubaDivingReview1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
