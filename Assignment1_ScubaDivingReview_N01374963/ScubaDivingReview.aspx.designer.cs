@@ -40,6 +40,15 @@ namespace Assignment1_ScubaDivingReview_N01374963 {
         protected global::System.Web.UI.WebControls.TextBox client_lastname;
         
         /// <summary>
+        /// client_email control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox client_email;
+        
+        /// <summary>
         /// scuba_sites control.
         /// </summary>
         /// <remarks>
@@ -49,12 +58,66 @@ namespace Assignment1_ScubaDivingReview_N01374963 {
         protected global::System.Web.UI.WebControls.DropDownList scuba_sites;
         
         /// <summary>
-        /// aspx_fish control.
+        /// diving_instructor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList aspx_fish;
+        protected global::System.Web.UI.WebControls.RadioButtonList diving_instructor;
+        
+        /// <summary>
+        /// diving_party control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox diving_party;
+        
+        /// <summary>
+        /// animal_count control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox animal_count;
+        
+        /// <summary>
+        /// marine_wildlife control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList marine_wildlife;
+        
+        /// <summary>
+        /// enjoymentID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList enjoymentID;
+        
+        /// <summary>
+        /// confirmationbox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl confirmationbox;
+        
+        /// <summary>
+        /// rating control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl rating;
     }
 }
